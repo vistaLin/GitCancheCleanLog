@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65ADB298274B680D00C3902E /* Bugly-2.5.9 in Resources */ = {isa = PBXBuildFile; fileRef = 65ADB297274B680D00C3902E /* Bugly-2.5.9 */; };
 		65C2195827476A4E00228551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2195727476A4E00228551 /* AppDelegate.swift */; };
 		65C2195A27476A4E00228551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2195927476A4E00228551 /* SceneDelegate.swift */; };
 		65C2195C27476A4E00228551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2195B27476A4E00228551 /* ViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		65ADB297274B680D00C3902E /* Bugly-2.5.9 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Bugly-2.5.9"; sourceTree = "<group>"; };
 		65C2195427476A4E00228551 /* GitCacheCleanLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCacheCleanLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C2195727476A4E00228551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65C2195927476A4E00228551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 		65C2195627476A4E00228551 /* GitCacheCleanLog */ = {
 			isa = PBXGroup;
 			children = (
-				65ADB297274B680D00C3902E /* Bugly-2.5.9 */,
 				65C2195727476A4E00228551 /* AppDelegate.swift */,
 				65C2195927476A4E00228551 /* SceneDelegate.swift */,
 				65C2195B27476A4E00228551 /* ViewController.swift */,
@@ -130,7 +127,6 @@
 				65C2196427476A5000228551 /* LaunchScreen.storyboard in Resources */,
 				65C2196127476A5000228551 /* Assets.xcassets in Resources */,
 				65C2195F27476A4E00228551 /* Main.storyboard in Resources */,
-				65ADB298274B680D00C3902E /* Bugly-2.5.9 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
