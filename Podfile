@@ -4,7 +4,7 @@
 target 'GitCacheCleanLog' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Bugly', '~> 2.0'
+#  pod 'Bugly', '~> 2.0'
   # Pods for GitCacheCleanLog
 
 end

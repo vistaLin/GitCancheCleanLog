@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65ADB2A6274C8C0D00C3902E /* Bugly-2.5.9 in Resources */ = {isa = PBXBuildFile; fileRef = 65ADB2A5274C8C0D00C3902E /* Bugly-2.5.9 */; };
 		65C2195827476A4E00228551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2195727476A4E00228551 /* AppDelegate.swift */; };
 		65C2195A27476A4E00228551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2195927476A4E00228551 /* SceneDelegate.swift */; };
 		65C2195C27476A4E00228551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2195B27476A4E00228551 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		32FA5CD54C1EB25DDA1C1542 /* Pods_GitCacheCleanLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitCacheCleanLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5E73B5E78E017B667B167B /* Pods-GitCacheCleanLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCacheCleanLog.release.xcconfig"; path = "Target Support Files/Pods-GitCacheCleanLog/Pods-GitCacheCleanLog.release.xcconfig"; sourceTree = "<group>"; };
 		608628FC6564AF54C46EF393 /* Pods-GitCacheCleanLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCacheCleanLog.debug.xcconfig"; path = "Target Support Files/Pods-GitCacheCleanLog/Pods-GitCacheCleanLog.debug.xcconfig"; sourceTree = "<group>"; };
+		65ADB2A5274C8C0D00C3902E /* Bugly-2.5.9 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Bugly-2.5.9"; sourceTree = "<group>"; };
 		65C2195427476A4E00228551 /* GitCacheCleanLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCacheCleanLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C2195727476A4E00228551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65C2195927476A4E00228551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		65C2194B27476A4E00228551 = {
 			isa = PBXGroup;
 			children = (
+				65ADB2A5274C8C0D00C3902E /* Bugly-2.5.9 */,
 				65C2195627476A4E00228551 /* GitCacheCleanLog */,
 				65C2195527476A4E00228551 /* Products */,
 				B459A8B2F55576E900F733EF /* Pods */,
@@ -80,7 +83,6 @@
 				608628FC6564AF54C46EF393 /* Pods-GitCacheCleanLog.debug.xcconfig */,
 				5D5E73B5E78E017B667B167B /* Pods-GitCacheCleanLog.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +155,7 @@
 				65C2196427476A5000228551 /* LaunchScreen.storyboard in Resources */,
 				65C2196127476A5000228551 /* Assets.xcassets in Resources */,
 				65C2195F27476A4E00228551 /* Main.storyboard in Resources */,
+				65ADB2A6274C8C0D00C3902E /* Bugly-2.5.9 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

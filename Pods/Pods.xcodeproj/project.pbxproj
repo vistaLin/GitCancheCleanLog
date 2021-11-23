@@ -19,10 +19,10 @@
 		3265DB2025AD71C6C1C9B6364BA384D2 /* Pods-GitCacheCleanLog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitCacheCleanLog-acknowledgements.plist"; sourceTree = "<group>"; };
 		54A5C0B0DAC3609D177CC65440C79EC7 /* Pods-GitCacheCleanLog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitCacheCleanLog-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		787B7307884E870A60F1D18F314A8177 /* Pods_GitCacheCleanLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitCacheCleanLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		787B7307884E870A60F1D18F314A8177 /* Pods-GitCacheCleanLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GitCacheCleanLog"; path = Pods_GitCacheCleanLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832BC31C6E9F9F01E035E8AFAA5EF926 /* Pods-GitCacheCleanLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitCacheCleanLog.release.xcconfig"; sourceTree = "<group>"; };
 		88E7F28DA19E35096CDADC1CDAC49093 /* Pods-GitCacheCleanLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitCacheCleanLog-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E36578942E97745A49E25BBF2CEC891 /* Pods-GitCacheCleanLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitCacheCleanLog-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 		DE6E7A1340ACE611A541B92871FF5946 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				787B7307884E870A60F1D18F314A8177 /* Pods_GitCacheCleanLog.framework */,
+				787B7307884E870A60F1D18F314A8177 /* Pods-GitCacheCleanLog */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			);
 			name = "Pods-GitCacheCleanLog";
 			productName = Pods_GitCacheCleanLog;
-			productReference = 787B7307884E870A60F1D18F314A8177 /* Pods_GitCacheCleanLog.framework */;
+			productReference = 787B7307884E870A60F1D18F314A8177 /* Pods-GitCacheCleanLog */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
