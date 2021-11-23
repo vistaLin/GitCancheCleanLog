@@ -1,0 +1,16 @@
+PODS:
+  - Bugly (2.5.90)
+
+DEPENDENCIES:
+  - Bugly (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Bugly
+
+SPEC CHECKSUMS:
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+
+PODFILE CHECKSUM: 193ca532512c57b8b838c1694b2507c40d5f2208
+
+COCOAPODS: 1.11.2

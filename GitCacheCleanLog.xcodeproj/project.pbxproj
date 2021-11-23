@@ -13,9 +13,13 @@
 		65C2195F27476A4E00228551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C2195D27476A4E00228551 /* Main.storyboard */; };
 		65C2196127476A5000228551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C2196027476A5000228551 /* Assets.xcassets */; };
 		65C2196427476A5000228551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C2196227476A5000228551 /* LaunchScreen.storyboard */; };
+		CBB492E78EC5549E965460F9 /* Pods_GitCacheCleanLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FA5CD54C1EB25DDA1C1542 /* Pods_GitCacheCleanLog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32FA5CD54C1EB25DDA1C1542 /* Pods_GitCacheCleanLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitCacheCleanLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5E73B5E78E017B667B167B /* Pods-GitCacheCleanLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCacheCleanLog.release.xcconfig"; path = "Target Support Files/Pods-GitCacheCleanLog/Pods-GitCacheCleanLog.release.xcconfig"; sourceTree = "<group>"; };
+		608628FC6564AF54C46EF393 /* Pods-GitCacheCleanLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitCacheCleanLog.debug.xcconfig"; path = "Target Support Files/Pods-GitCacheCleanLog/Pods-GitCacheCleanLog.debug.xcconfig"; sourceTree = "<group>"; };
 		65C2195427476A4E00228551 /* GitCacheCleanLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCacheCleanLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C2195727476A4E00228551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65C2195927476A4E00228551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB492E78EC5549E965460F9 /* Pods_GitCacheCleanLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				65C2195627476A4E00228551 /* GitCacheCleanLog */,
 				65C2195527476A4E00228551 /* Products */,
+				B459A8B2F55576E900F733EF /* Pods */,
+				D3E0A5993B7136D1F61A3334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = GitCacheCleanLog;
 			sourceTree = "<group>";
 		};
+		B459A8B2F55576E900F733EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				608628FC6564AF54C46EF393 /* Pods-GitCacheCleanLog.debug.xcconfig */,
+				5D5E73B5E78E017B667B167B /* Pods-GitCacheCleanLog.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3E0A5993B7136D1F61A3334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32FA5CD54C1EB25DDA1C1542 /* Pods_GitCacheCleanLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65C2196827476A5000228551 /* Build configuration list for PBXNativeTarget "GitCacheCleanLog" */;
 			buildPhases = (
+				1DBD980D056EFF22FF9934C4 /* [CP] Check Pods Manifest.lock */,
 				65C2195027476A4E00228551 /* Sources */,
 				65C2195127476A4E00228551 /* Frameworks */,
 				65C2195227476A4E00228551 /* Resources */,
@@ -131,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DBD980D056EFF22FF9934C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GitCacheCleanLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65C2195027476A4E00228551 /* Sources */ = {
@@ -283,6 +334,7 @@
 		};
 		65C2196927476A5000228551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608628FC6564AF54C46EF393 /* Pods-GitCacheCleanLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +353,7 @@
 		};
 		65C2196A27476A5000228551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5E73B5E78E017B667B167B /* Pods-GitCacheCleanLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
